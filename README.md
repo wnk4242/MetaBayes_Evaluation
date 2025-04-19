@@ -27,16 +27,37 @@ We provide R scripts demonstrating simulation and data analysis procedures. Due 
 
 **Step 1: Data Generation**
 - Generate original (`Step 1.0 OGDG.R`) and replication study results (`Step 1.1 REPDG.R`).
-- Apply synthesis methods: BFbMA, EUBF, FEMABF, iBF, FEMA.
+- Synthesize replication data using Bayes factor methods:
+  - `Step 1.2 BFbMA_SYNTH.R`
+  - `Step 1.2 EUBF_SYNTH.R`
+  - `Step 1.2 FEMABF_SYNTH.R`
+  - `Step 1.2 iBF_SYNTH.R`
+  - `Step 1.2 FEMA_SYNTH.R`
 
 **Step 2: Data Combination**
-- Combine synthesized replication data for each method into single datasets.
+- Combine synthesized replication data:
+  - `Step 2.0 BFbMA_Data_Combination.R`
+  - `Step 2.0 EUBF_Data_Combination.R`
+  - `Step 2.0 FEMABF_Data_Combination.R`
+  - `Step 2.0 iBF_Data_Combination.R`
+  - `Step 2.0 FEMA_Data_Combination.R`
 
 **Step 3: Data Analysis**
-- Compute evaluation metrics (true/false positive and negative rates) for each method.
+- Compute evaluation metrics (true/false positive and negative rates):
+  - `Step 3.0 BFbMA_Data_Analysis.R`
+  - `Step 3.0 EUBF_Data_Analysis.R`
+  - `Step 3.0 FEMABF_Data_Analysis.R`
+  - `Step 3.0 iBF_Data_Analysis.R`
+  - `Step 3.0 FEMA_Data_Analysis.R`
 
 **Step 4: ROC Curves Generation**
-- Prepare ROC data (`Step 4.0` scripts) and generate ROC curves with AUC metrics (`Step 4.1 ROC_AUC.R`).
+- Prepare data for ROC curves:
+  - `Step 4.0 BFbMA_ROC.R`
+  - `Step 4.0 EUBF_ROC.R`
+  - `Step 4.0 FEMABF_ROC.R`
+  - `Step 4.0 iBF_ROC.R`
+  - `Step 4.0 FEMA_ROC.R`
+- Generate ROC curves and compute AUC metrics (`Step 4.1 ROC_AUC.R`).
 
 ### Workflow Diagram
 
