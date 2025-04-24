@@ -63,3 +63,7 @@ We provide R scripts demonstrating simulation and data analysis procedures. Due 
 
 An R script workflow diagram is included to illustrate the data generation and analysis process.
 ![Workflow Diagram](workflow.png)
+
+### Shiny App for Data Visualization
+A Shiny App is developed to visualize performance metrics (such as TPR, FPR, etc.) under varying conditions: https://quantpsych.shinyapps.io/ReplicationCurve/
+     
