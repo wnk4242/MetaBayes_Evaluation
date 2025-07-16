@@ -65,5 +65,5 @@ An R script workflow diagram is included to illustrate the data generation and a
 ![Workflow Diagram](workflow.png)
 
 ### Shiny App for Data Visualization
-A Shiny App is developed to visualize performance metrics (such as TPR, FPR, etc.) under varying conditions: https://quantpsych.shinyapps.io/ReplicationCurve/
+A limited Shiny App is developed to visualize performance metrics (such as TPR, FPR, etc.) under varying conditions: https://quantpsych.shinyapps.io/ReplicationCurve/
      
