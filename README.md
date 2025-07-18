@@ -21,6 +21,17 @@ This project examines and compares Bayesian hypothesis testing methods, particul
 
 - **Tools:** R version 4.3.1 on Texas A&M University's Terra and GRACE computing clusters.
 
+### Data-Analysis and Visualization with Shiny
+We develop a few Shiny apps to visualize simulated data and the analyses. 
+
+- `[Simulation Data Modeling and Visualization](https://quantpsych.shinyapps.io/SimulationAnalysis/)`: This Shiny app explores how design features of replication studies impact key outcome measures when using meta-analytic Bayes factor (MABF) methods. Specifically, the app allows users to examine the influence of explanatory variables and covariates on outcomes such as the True Positive Rate (TPR) and False Positive Rate (FPR).
+  - *Beta regression modeling*: Fit models using `glmmTMB()` with a beta distribution and logit link to handle proportions.
+  - *Statistical summaries*: Type III Wald chi-square tests, Likelihood ratio tests (`drop1`), Estimated marginal means (EMMeans)
+  - *Dynamic visualizations*: Generate plots of predicted outcome values by design variables, with optional faceting by covariates or interaction terms.
+  - *Optional AI support*: Summarize model results in plain language using the ChatGPT API (API key upload required).
+
+
+
 ### Repository Contents
 
 We provide R scripts demonstrating simulation and data analysis procedures. Due to computational requirements, scripts from Steps 1.0 and 4.0 require high-performance computing resources. Fully processed simulation datasets are available for reviewers to reproduce results using the `Step 4.1 ROC_AUC.R` script.
@@ -64,6 +75,4 @@ We provide R scripts demonstrating simulation and data analysis procedures. Due 
 An R script workflow diagram is included to illustrate the data generation and analysis process.
 ![Workflow Diagram](workflow.png)
 
-### Shiny App for Data Visualization
-A limited Shiny App is developed to visualize performance metrics (such as TPR, FPR, etc.) under varying conditions: https://quantpsych.shinyapps.io/ReplicationCurve/
      
