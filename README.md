@@ -82,6 +82,6 @@ We provide R scripts demonstrating simulation and data analysis procedures. Due 
 ### Workflow Diagram
 
 An R script workflow diagram is included to illustrate the data generation and analysis process.
-![Workflow Diagram](workflow2.png)
+![Workflow Diagram](images/workflow2.png)
 
      
