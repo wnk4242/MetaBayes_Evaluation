@@ -1,4 +1,4 @@
-# This R script asks the EUBF method to synthesize the generated replication data
+# This R script asks the EUBF method to synthesize the generated replication data 
 # that are not affected by p-hacking or publication bias.
 # High-performance computers are required to run this R script.
 #++++++++++++++++++++++++++++++#
