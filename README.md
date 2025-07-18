@@ -10,6 +10,7 @@ This project examines and compares Bayesian hypothesis testing methods, particul
   - Fixed-Effect Meta-Analytic Bayes Factor (FEMABF)
   - Bayes Factor based on Meta-Analysis (BFbMA)
 - **Comparison with Frequentist Approach:** Compare performance against traditional fixed-effect meta-analysis (FEMA).
+<hr style="border-top: 1px dotted #999;">
 
 ### Simulation Study
 
@@ -20,16 +21,18 @@ This project examines and compares Bayesian hypothesis testing methods, particul
 - **Total scenarios:** 243 unique scenarios, with 500 original studies per scenario, replicated 500 times, resulting in 60,750,000 observations.
 
 - **Tools:** R version 4.3.1 on Texas A&M University's Terra and GRACE computing clusters.
+<hr style="border-top: 1px dotted #999;">
 
 ### Data-Analysis and Visualization with Shiny
 We develop a few Shiny apps to visualize simulated data and the analyses. 
 
-- `[Simulation Data Modeling and Visualization](https://quantpsych.shinyapps.io/SimulationAnalysis/)`: This Shiny app explores how design features of replication studies impact key outcome measures when using meta-analytic Bayes factor (MABF) methods. Specifically, the app allows users to examine the influence of explanatory variables and covariates on outcomes such as the True Positive Rate (TPR) and False Positive Rate (FPR).
-  - *Beta regression modeling*: Fit models using `glmmTMB()` with a beta distribution and logit link to handle proportions.
-  - *Statistical summaries*: Type III Wald chi-square tests, Likelihood ratio tests (`drop1`), Estimated marginal means (EMMeans)
-  - *Dynamic visualizations*: Generate plots of predicted outcome values by design variables, with optional faceting by covariates or interaction terms.
-  - *Optional AI support*: Summarize model results in plain language using the ChatGPT API (API key upload required).
+- [**Simulation Data Modeling and Visualization**](https://quantpsych.shinyapps.io/SimulationAnalysis/): This Shiny app explores how design features of replication studies and original studies impact key outcome measures of meta-analytic Bayes factor methods (e.g., True Positive Rate and False Positive Rate).
 
+  - **Beta regression modeling**: Fit models using `glmmTMB()` with a beta distribution and logit link to handle proportions.
+  - **Statistical summaries**: Type III Wald chi-square tests, Likelihood ratio tests, Estimated marginal means (EMMeans).
+  - **Dynamic visualizations**: Generate plots of predicted outcome values by design variables, with optional faceting by covariates or interaction terms.
+  - **Optional AI support**: Summarize model results in plain language using the ChatGPT API (API key upload required).
+<hr style="border-top: 1px dotted #999;">
 
 
 ### Repository Contents
@@ -61,18 +64,24 @@ We provide R scripts demonstrating simulation and data analysis procedures. Due 
   - `Step 3.0 iBF_Data_Analysis.R`
   - `Step 3.0 FEMA_Data_Analysis.R`
 
-**Step 4: ROC Curves Generation**
+**Step 4: ROC Curve Data Processing**
 - Prepare data for ROC curves:
   - `Step 4.0 BFbMA_ROC.R`
   - `Step 4.0 EUBF_ROC.R`
   - `Step 4.0 FEMABF_ROC.R`
   - `Step 4.0 iBF_ROC.R`
   - `Step 4.0 FEMA_ROC.R`
-- Generate ROC curves and compute AUC metrics (`Step 4.1 ROC_AUC.R`).
+
+**Step 5: Shiny App Development**
+- Use Shiny to create interactive dashboards for data visualization
+  - `Step 5.0 Shiny_ROC_AUC.R`
+  - `Step 5.0 Shiny_SimDataMod.R`
+  - `Step 5.0 Shiny_PieChart.R`
+  - `Step 5.0 Shiny_nValueVisual.R`
 
 ### Workflow Diagram
 
 An R script workflow diagram is included to illustrate the data generation and analysis process.
-![Workflow Diagram](workflow.png)
+![Workflow Diagram](workflow2.png)
 
      
