@@ -15,8 +15,8 @@ This project examines and compares Bayesian hypothesis testing methods, particul
 ### Simulation Study
 
 - **Design:** Two-phase simulation:
-  - **Phase 1:** Generate original experimental results under varying effect sizes (0, 0.2, 0.5), sample sizes (20, 50, 200 per group), and research environments (no, medium, high publication bias/p-hacking).
-  - **Phase 2:** Conduct direct replications (2, 5, 10 replications per study), varying sample sizes (40, 100, 400 per group), and apply Bayesian methods to replication results.
+  - **Phase 1:** Generate original experimental results with different effect sizes (0, 0.2, 0.5) and sample sizes (20, 50, 200 per group). Original studies are subject to the impact of varying degrees of biasing mechanism in simulated research environments (low, medium, and high publication bias and p-hacking).
+  - **Phase 2:** Conduct multiple direct replications for each original study (2, 5, 10 replications) with different sample sizes (40, 100, 400 per group). After replication studies are generated, meta-analytic Bayes factor methods are used to evaluation replication results.
 
 - **Tools:** R versions 4.3.1 and 4.5.0. Simulation was implemented on high performance computing clusters.
 <hr style="border-top: 1px dotted #999;">
