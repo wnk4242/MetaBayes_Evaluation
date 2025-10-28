@@ -66,9 +66,7 @@ We provide R scripts demonstrating simulation and data analysis procedures. Due 
 **Step 5: Shiny App Development**
 - Use Shiny to create interactive dashboards for data visualization
   - `Step 5.0 Shiny_ROC_AUC.R`
-  - `Step 5.0 Shiny_SimDataMod.R`
-  - `Step 5.0 Shiny_PieChart.R`
-  - `Step 5.0 Shiny_nValueVisual.R`
+  - `Step 5.0 Shiny_StackedBar.R`
 
 ### Workflow Diagram
 
