@@ -35,7 +35,7 @@ We provide R scripts demonstrating simulation and data analysis procedures. Due 
   - `Step 1.2 EUBF_SYNTH.R`
   - `Step 1.2 FEMABF_SYNTH.R`
   - `Step 1.2 iBF_SYNTH.R`
-  - `Step 1.2 FEMA_SYNTH.R`
+  - `Step 1.2 REMA_SYNTH.R`
 
 **Step 2: Data Combination**
 - Combine synthesized replication data:
@@ -43,7 +43,7 @@ We provide R scripts demonstrating simulation and data analysis procedures. Due 
   - `Step 2.0 EUBF_Data_Combination.R`
   - `Step 2.0 FEMABF_Data_Combination.R`
   - `Step 2.0 iBF_Data_Combination.R`
-  - `Step 2.0 FEMA_Data_Combination.R`
+  - `Step 2.0 REMA_Data_Combination.R`
 
 **Step 3: Data Analysis**
 - Compute evaluation metrics (true/false positive and negative rates):
@@ -51,7 +51,7 @@ We provide R scripts demonstrating simulation and data analysis procedures. Due 
   - `Step 3.0 EUBF_Data_Analysis.R`
   - `Step 3.0 FEMABF_Data_Analysis.R`
   - `Step 3.0 iBF_Data_Analysis.R`
-  - `Step 3.0 FEMA_Data_Analysis.R`
+  - `Step 3.0 REMA_Data_Analysis.R`
 
 **Step 4: ROC Curve Data Processing**
 - Prepare data for ROC curves:
@@ -59,7 +59,7 @@ We provide R scripts demonstrating simulation and data analysis procedures. Due 
   - `Step 4.0 EUBF_ROC.R`
   - `Step 4.0 FEMABF_ROC.R`
   - `Step 4.0 iBF_ROC.R`
-  - `Step 4.0 FEMA_ROC.R`
+  - `Step 4.0 REMA_ROC.R`
 
 **Step 5: Shiny App Development**
 - Use Shiny to create interactive dashboards for data visualization
