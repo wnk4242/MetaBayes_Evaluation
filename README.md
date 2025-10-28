@@ -18,9 +18,7 @@ This project examines and compares Bayesian hypothesis testing methods, particul
   - **Phase 1:** Generate original experimental results under varying effect sizes (0, 0.2, 0.5), sample sizes (20, 50, 200 per group), and research environments (no, medium, high publication bias/p-hacking).
   - **Phase 2:** Conduct direct replications (2, 5, 10 replications per study), varying sample sizes (40, 100, 400 per group), and apply Bayesian methods to replication results.
 
-- **Total scenarios:** 243 unique scenarios, with 500 original studies per scenario, replicated 500 times, resulting in 60,750,000 observations.
-
-- **Tools:** R version 4.3.1 on Texas A&M University's Terra and GRACE computing clusters.
+- **Tools:** R versions 4.3.1 and 4.5.0. Simulation was implemented on high performance computing clusters.
 <hr style="border-top: 1px dotted #999;">
 
 
