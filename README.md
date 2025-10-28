@@ -9,7 +9,7 @@ This project examines and compares Bayesian hypothesis testing methods, particul
   - Inclusion Bayes Factor (iBF)
   - Fixed-Effect Meta-Analytic Bayes Factor (FEMABF)
   - Bayes Factor based on Meta-Analysis (BFbMA)
-- **Comparison with Frequentist Approach:** Compare performance against traditional fixed-effect meta-analysis (FEMA).
+- **Comparison with Frequentist Approach:** Compare performance against traditional random-effects meta-analysis (REMA).
 <hr style="border-top: 1px dotted #999;">
 
 ### Simulation Study
@@ -23,16 +23,7 @@ This project examines and compares Bayesian hypothesis testing methods, particul
 - **Tools:** R version 4.3.1 on Texas A&M University's Terra and GRACE computing clusters.
 <hr style="border-top: 1px dotted #999;">
 
-### Data-Analysis and Visualization with Shiny
-We develop a few Shiny apps to visualize simulated data and the analyses. 
 
-- [**Simulation Data Modeling and Visualization**](https://quantpsych.shinyapps.io/SimulationAnalysis/): This Shiny app explores how design features of replication studies and original studies impact key outcome measures of meta-analytic Bayes factor methods (e.g., True Positive Rate and False Positive Rate).
-
-  - **Beta regression modeling**: Fit models using `glmmTMB()` with a beta distribution and logit link to handle proportions.
-  - **Statistical summaries**: Type III Wald chi-square tests, Likelihood ratio tests, Estimated marginal means (EMMeans).
-  - **Dynamic visualizations**: Generate plots of predicted outcome values by design variables, with optional faceting by covariates or interaction terms.
-  - **Optional AI support**: Summarize model results in plain language using the ChatGPT API (API key upload required).
-<hr style="border-top: 1px dotted #999;">
 
 
 ### Repository Contents
