@@ -1,7 +1,6 @@
 # Seeing Beyond Replication Success: A Framework for Evaluating Multi-Lab Replication Outcomes Using Meta-Analytic Bayes Factors
 
-This repository accompanies the manuscript entitled *“Seeing Beyond Replication Success: A Framework for Evaluating Multi-Lab Replication Outcomes Using Meta-Analytic Bayes Factors.”*  
-It contains the R code, processed data, and supplementary materials necessary to reproduce the analyses presented in the paper.
+This repository accompanies the manuscript entitled *“Seeing Beyond Replication Success: A Framework for Evaluating Multi-Lab Replication Outcomes Using Meta-Analytic Bayes Factors.”* It contains the R code, processed data, and supplementary materials necessary to reproduce the analyses presented in the paper.
 
 ---
 
