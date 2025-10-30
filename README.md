@@ -1,12 +1,12 @@
-This is the repository for the manuscript, entitled "Seeing Beyond Replication Success: A Framework for Evaluating Multi-Lab Replication Outcomes Using Meta-Analytic Bayes Factors." This repository contains the R code and supplementary materials for revieweres and readers. 
+This is the repository for the manuscript, entitled "Seeing Beyond Replication Success: A Framework for Evaluating Multi-Lab Replication Outcomes Using Meta-Analytic Bayes Factors." This repository contains the R code and supplementary materials for readers. 
 ### Supplementary materials
 - Appendix A: Figures.
 - Appendix B: Tables.
 - Appendix C: Data generation process.
 
 ### R code
-
-We provide R scripts demonstrating simulation and data analysis procedures. Due to computational requirements, scripts from Steps 1.0 and 4.0 require high-performance computing resources. Fully processed simulation datasets are available for reviewers to reproduce results using the `Step 4.1 ROC_AUC.R` script.
+We provide original R code for the simulation and analysis in the `original code` folder.  
+The R code in the `code for demonstration` folder demonstrates simulation and data analysis procedures. Due to computational requirements, code from Steps 1.0 and 4.0 require high-performance computing resources. Fully processed simulation datasets are available for readers to reproduce results using the `Step 4.1 ROC_AUC.R` script.
 
 **Step 1: Data Generation**
 - Generate original (`Step 1.0 OGDG.R`) and replication study results (`Step 1.1 REPDG.R`).
