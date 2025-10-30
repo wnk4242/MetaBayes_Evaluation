@@ -1,30 +1,10 @@
-## Bayesian Hypothesis Testing for Direct Replication Studies
+This is the repository for the manuscript, entitled "Seeing Beyond Replication Success: A Framework for Evaluating Multi-Lab Replication Outcomes Using Meta-Analytic Bayes Factors." This repository contains the R code and supplementary materials for revieweres and readers. 
+### Supplementary materials
+- Appendix A: Figures.
+- Appendix B: Tables.
+- Appendix C: Data generation process.
 
-This project examines and compares Bayesian hypothesis testing methods, particularly within a meta-analytic framework. Motivated by the ongoing replication crisis in psychology, this work assesses how effectively Bayesian methods can distinguish between true and null effects in multi-lab replication projects.
-
-### Objectives
-
-- **Evaluate Bayesian Methods:** Examine four meta-analytic Bayesian methods (Meta-analytic Bayes Factors - MABFs) for determining replication success:
-  - Evidence Updating Bayes Factor (EUBF)
-  - Inclusion Bayes Factor (iBF)
-  - Fixed-Effect Meta-Analytic Bayes Factor (FEMABF)
-  - Bayes Factor based on Meta-Analysis (BFbMA)
-- **Comparison with Frequentist Approach:** Compare performance against traditional random-effects meta-analysis (REMA).
-<hr style="border-top: 1px dotted #999;">
-
-### Simulation Study
-
-- **Design:** Two-phase simulation:
-  - **Phase 1:** Generate original experimental results with different effect sizes (0, 0.2, 0.5) and sample sizes (20, 50, 200 per group). Original studies are subject to the impact of varying degrees of biasing mechanism in simulated research environments (low, medium, and high publication bias and p-hacking).
-  - **Phase 2:** Conduct multiple direct replications for each original study (2, 5, 10 replications) with different sample sizes (40, 100, 400 per group). After replication studies are generated, meta-analytic Bayes factor methods are used to evaluation replication results.
-
-- **Tools:** R versions 4.3.1 and 4.5.0. Simulation was implemented on high performance computing clusters.
-<hr style="border-top: 1px dotted #999;">
-
-
-
-
-### Repository Contents
+### R code
 
 We provide R scripts demonstrating simulation and data analysis procedures. Due to computational requirements, scripts from Steps 1.0 and 4.0 require high-performance computing resources. Fully processed simulation datasets are available for reviewers to reproduce results using the `Step 4.1 ROC_AUC.R` script.
 
