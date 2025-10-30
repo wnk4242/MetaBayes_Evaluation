@@ -7,12 +7,12 @@ It contains the R code, processed data, and supplementary materials necessary to
 
 ## Repository Contents
 
-### 📁 Supplementary Materials
+### Supplementary Materials
 This folder includes materials referenced in the manuscript:
 
 - **Appendix A – Figures:** Contains all figures presented in the paper, as well as the complete set of ROC curve graphs that were not shown in the manuscript. 
 - **Appendix B – Tables:** Contains all summary tables reporting key simulation results and performance comparisons across meta-analytic Bayes factor methods.  
-- **Appendix C – Data Generation Process:** A detailed description of the parameter settings and the two-phase simulation design.
+- **Appendix C – Data Generation Process:** A detailed description of the parameter settings used for generating study-level effect sizes and participant-level data in the two-phase simulation design.
 
 ---
 ### R code
