@@ -52,14 +52,14 @@ The R code in the `code for demonstration` folder demonstrates simulation and da
   - `Step 4.0 iBF_ROC.R`: Prepares data for ROC curve generation for the iBF method.
   - `Step 4.0 REMA_ROC.R`: Prepares data for ROC curve generation for the REMA method.
 
-**Step 5: Shiny App Development**
-- Use Shiny to create interactive dashboards for data visualization
-  - `Step 5.0 Shiny_ROC_AUC.R`: Generates ROC curves and compute AUC for the MABF methods and the REMA method.
-  - `Step 5.0 Shiny_StackedBar.R`: Generate stacked bar plots for the MABF methods.
+**Step 5: Data Visualization**
+- Use ggplot2 to create visualizations.
+  - `Step 5.0 ROC_AUC.R`: Generates ROC curves and compute AUC for the MABF methods and the REMA method.
+  - `Step 5.0 StackedBar.R`: Generate stacked bar plots for the MABF methods.
 
 ### Workflow Diagram
 
 An R script workflow diagram is included to illustrate the data generation and analysis process.
-![Workflow Diagram](images/workflow2.png)
+![Workflow Diagram](images/workflow3.png)
 
      
