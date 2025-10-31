@@ -1,7 +1,7 @@
 # This R script prepares data to create ROC curves for REMA outcomes.
 # Note: "FEMA" was accidentally used as the object name for the random-effects meta-analysis method.
 ################################
-#Method: FEMA; dataset: 0.2null#
+#Method: REMA; dataset: 0.2null#
 ################################
 # Load necessary data and packages
 library(tidyverse)
