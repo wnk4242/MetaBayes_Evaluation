@@ -30,32 +30,32 @@ The R code in the `code for demonstration` folder demonstrates simulation and da
 
 **Step 2: Data Combination**
 - Combine synthesized replication data:
-  - `Step 2.0 BFbMA_Data_Combination.R`
-  - `Step 2.0 EUBF_Data_Combination.R`
-  - `Step 2.0 FEMABF_Data_Combination.R`
-  - `Step 2.0 iBF_Data_Combination.R`
-  - `Step 2.0 REMA_Data_Combination.R`
+  - `Step 2.0 BFbMA_Data_Combination.R`: Combine replication data synthesized by the BFbMA method into one single dataset for further analysis.
+  - `Step 2.0 EUBF_Data_Combination.R`: Combine replication data synthesized by the EUBF method into one single dataset for further analysis.
+  - `Step 2.0 FEMABF_Data_Combination.R`: Combine replication data synthesized by the FEMABF method into one single dataset for further analysis.
+  - `Step 2.0 iBF_Data_Combination.R`: Combine replication data synthesized by the iBF method into one single dataset for further analysis.
+  - `Step 2.0 REMA_Data_Combination.R`: Combine replication data synthesized by the REMA method into one single dataset for further analysis.
 
 **Step 3: Data Analysis**
 - Compute evaluation metrics (true/false positive and negative rates):
-  - `Step 3.0 BFbMA_Data_Analysis.R`
-  - `Step 3.0 EUBF_Data_Analysis.R`
-  - `Step 3.0 FEMABF_Data_Analysis.R`
-  - `Step 3.0 iBF_Data_Analysis.R`
-  - `Step 3.0 REMA_Data_Analysis.R`
+  - `Step 3.0 BFbMA_Data_Analysis.R`: Computes evaluation metrics (e.g., true/false positive rates, true/false negative rates) for the BFbMA method. 
+  - `Step 3.0 EUBF_Data_Analysis.R`: Computes evaluation metrics for the EUBF method.
+  - `Step 3.0 FEMABF_Data_Analysis.R`: Computes evaluation metrics for the FEMABF method. 
+  - `Step 3.0 iBF_Data_Analysis.R`: Computes evaluation metrics for the iBF method. 
+  - `Step 3.0 REMA_Data_Analysis.R`: Computes evaluation metrics for the REMA method
 
 **Step 4: ROC Curve Data Processing**
 - Prepare data for ROC curves:
-  - `Step 4.0 BFbMA_ROC.R`
-  - `Step 4.0 EUBF_ROC.R`
-  - `Step 4.0 FEMABF_ROC.R`
-  - `Step 4.0 iBF_ROC.R`
-  - `Step 4.0 REMA_ROC.R`
+  - `Step 4.0 BFbMA_ROC.R`: Prepares data for ROC curve generation for the BFbMA method.
+  - `Step 4.0 EUBF_ROC.R`: Prepares data for ROC curve generation for the EUBF method.
+  - `Step 4.0 FEMABF_ROC.R`: Prepares data for ROC curve generation for the FEMABF method.
+  - `Step 4.0 iBF_ROC.R`: Prepares data for ROC curve generation for the iBF method.
+  - `Step 4.0 REMA_ROC.R`: Prepares data for ROC curve generation for the REMA method.
 
 **Step 5: Shiny App Development**
 - Use Shiny to create interactive dashboards for data visualization
-  - `Step 5.0 Shiny_ROC_AUC.R`
-  - `Step 5.0 Shiny_StackedBar.R`
+  - `Step 5.0 Shiny_ROC_AUC.R`: Generates ROC curves and compute AUC for the MABF methods and the REMA method.
+  - `Step 5.0 Shiny_StackedBar.R`: Generate stacked bar plots for the MABF methods.
 
 ### Workflow Diagram
 
