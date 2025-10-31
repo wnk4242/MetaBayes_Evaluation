@@ -19,13 +19,14 @@ We provide original R code for the simulation and analysis in the `original code
 The R code in the `code for demonstration` folder demonstrates simulation and data analysis procedures. Due to computational requirements, code from Steps 1.0 and 4.0 require high-performance computing resources. Fully processed simulation datasets are available for readers to reproduce results using the `Step 4.1 ROC_AUC.R` script.
 
 **Step 1: Data Generation**
-- Generate original (`Step 1.0 OGDG.R`) and replication study results (`Step 1.1 REPDG.R`).
+-  `Step 1.0 OGDG.R`: Generate original study results.
+-  `Step 1.1 REPDG.R`: Generate replication study results.
 - Synthesize replication data using Bayes factor methods:
-  - `Step 1.2 BFbMA_SYNTH.R`
-  - `Step 1.2 EUBF_SYNTH.R`
-  - `Step 1.2 FEMABF_SYNTH.R`
-  - `Step 1.2 iBF_SYNTH.R`
-  - `Step 1.2 REMA_SYNTH.R`
+  - `Step 1.2 BFbMA_SYNTH.R`: Applies the Bayes factor based on meta-analysis (BFbMA)  method to synthesize replication study data.
+  - `Step 1.2 EUBF_SYNTH.R`: Applies the evidence updating Bayes factor (EUBF) method to synthesize replication study data.
+  - `Step 1.2 FEMABF_SYNTH.R`: Applies the fixed-effect meta-analytic Bayes factor (FEMABF)  method to synthesize replication study data.
+  - `Step 1.2 iBF_SYNTH.R`: Applies the inclusion Bayes factor (iBF) method to synthesize replication study data.
+  - `Step 1.2 REMA_SYNTH.R`: Applies the random-effect meta-analysis (REMA) method to synthesize replication study data.
 
 **Step 2: Data Combination**
 - Combine synthesized replication data:
