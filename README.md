@@ -1,6 +1,7 @@
 # Seeing Beyond Replication Success: A Framework for Evaluating Multi-Lab Replication Outcomes Using Meta-Analytic Bayes Factors
 
-This repository accompanies the manuscript entitled *“Seeing Beyond Replication Success: A Framework for Evaluating Multi-Lab Replication Outcomes Using Meta-Analytic Bayes Factors.”* It contains the R code, processed data, and supplementary materials necessary to reproduce the analyses presented in the paper.
+This repository accompanies the manuscript entitled *“Seeing Beyond Replication Success: A Framework for Evaluating Multi-Lab Replication Outcomes Using Meta-Analytic Bayes Factors.”*  
+It contains the R code, processed data, and supplementary materials required to reproduce the analyses and visualizations presented in the paper.
 
 ---
 
@@ -9,53 +10,44 @@ This repository accompanies the manuscript entitled *“Seeing Beyond Replicatio
 ### Supplementary Materials
 This folder includes materials referenced in the manuscript:
 
-- **Appendix A – Figures:** Contains all figures presented in the paper, as well as the complete set of ROC curve graphs that were not shown in the manuscript. 
-- **Appendix B – Tables:** Contains all summary tables reporting key simulation results and performance comparisons across meta-analytic Bayes factor methods.  
-- **Appendix C – Data generation process:** A detailed description of the parameter settings used for generating study-level effect sizes and participant-level data in the two-phase simulation design.
+- **Appendix A – Figures:** Contains all figures presented in the paper, as well as the complete set of ROC curve graphs that were not shown in the manuscript.  
+- **Appendix B – Tables:** Contains all summary tables reporting key simulation results and performance comparisons across meta-analytic Bayes factor (MABF) methods.  
+- **Appendix C – Data Generation Process:** Provides a detailed description of the parameter settings used to generate study-level effect sizes and participant-level data in the two-phase simulation design.
 
 ---
-### R code
-We provide original R code for the simulation and analysis in the `original code` folder.  
-The R code in the `code for demonstration` folder demonstrates simulation and data analysis procedures. Due to computational requirements, code from Steps 1.0 and 4.0 require high-performance computing resources. Fully processed simulation datasets are available for readers to reproduce results using the `Step 4.1 ROC_AUC.R` script.
 
-**Step 1: Data Generation**
--  `Step 1.0 OGDG.R`: Generate original study results.
--  `Step 1.1 REPDG.R`: Generate replication study results.
-- Synthesize replication data using Bayes factor methods:
-  - `Step 1.2 BFbMA_SYNTH.R`: Applies the Bayes factor based on meta-analysis (BFbMA)  method to synthesize replication study data.
-  - `Step 1.2 EUBF_SYNTH.R`: Applies the evidence updating Bayes factor (EUBF) method to synthesize replication study data.
-  - `Step 1.2 FEMABF_SYNTH.R`: Applies the fixed-effect meta-analytic Bayes factor (FEMABF)  method to synthesize replication study data.
-  - `Step 1.2 iBF_SYNTH.R`: Applies the inclusion Bayes factor (iBF) method to synthesize replication study data.
-  - `Step 1.2 REMA_SYNTH.R`: Applies the random-effect meta-analysis (REMA) method to synthesize replication study data.
+### R Code
+The repository provides original R code used for simulation, data analysis, and visualization.
 
-**Step 2: Data Combination**
-- Combine synthesized replication data:
-  - `Step 2.0 BFbMA_Data_Combination.R`: Combine replication data synthesized by the BFbMA method into one single dataset for further analysis.
-  - `Step 2.0 EUBF_Data_Combination.R`: Combine replication data synthesized by the EUBF method into one single dataset for further analysis.
-  - `Step 2.0 FEMABF_Data_Combination.R`: Combine replication data synthesized by the FEMABF method into one single dataset for further analysis.
-  - `Step 2.0 iBF_Data_Combination.R`: Combine replication data synthesized by the iBF method into one single dataset for further analysis.
-  - `Step 2.0 REMA_Data_Combination.R`: Combine replication data synthesized by the REMA method into one single dataset for further analysis.
+- The R code in the `original_code` folder reproduces the full simulation workflow.  
+  Due to computational demands, scripts for **Steps 1.0** and **4.0** require high-performance computing (HPC) resources and cannot be executed on a standard computer.  
+- Fully processed simulation datasets are provided for readers to reproduce the main plots in the manuscript, including ROC curves and stacked bar charts.  
+  The demonstration scripts for these analyses are located in the `code_for_demonstration` folder.
 
-**Step 3: Data Analysis**
-- Compute evaluation metrics (true/false positive and negative rates):
-  - `Step 3.0 BFbMA_Data_Analysis.R`: Computes evaluation metrics (e.g., true/false positive rates, true/false negative rates) for the BFbMA method. 
-  - `Step 3.0 EUBF_Data_Analysis.R`: Computes evaluation metrics for the EUBF method.
-  - `Step 3.0 FEMABF_Data_Analysis.R`: Computes evaluation metrics for the FEMABF method. 
-  - `Step 3.0 iBF_Data_Analysis.R`: Computes evaluation metrics for the iBF method. 
-  - `Step 3.0 REMA_Data_Analysis.R`: Computes evaluation metrics for the REMA method
+---
 
-**Step 4: ROC Curve Data Processing**
-- Prepare data for ROC curves:
-  - `Step 4.0 BFbMA_ROC.R`: Prepares data for ROC curve generation for the BFbMA method.
-  - `Step 4.0 EUBF_ROC.R`: Prepares data for ROC curve generation for the EUBF method.
-  - `Step 4.0 FEMABF_ROC.R`: Prepares data for ROC curve generation for the FEMABF method.
-  - `Step 4.0 iBF_ROC.R`: Prepares data for ROC curve generation for the iBF method.
-  - `Step 4.0 REMA_ROC.R`: Prepares data for ROC curve generation for the REMA method.
+### Simulation and Analysis Workflow
 
-**Step 5: Data Visualization**
-- Use ggplot2 to create visualizations.
-  - `Step 5.0 ROC_AUC.R`: Generates ROC curves and compute AUC for the MABF methods and the REMA method.
-  - `Step 5.0 StackedBar.R`: Generate stacked bar plots for the MABF methods.
+**Step 1.0–1.2: Data Generation**  
+- Generate original study results.  
+- Generate replication study results.  
+- Synthesize replication data using meta-analytic Bayes factor (MABF) and random-effects meta-analysis (REMA) methods.  
+
+**Step 2: Data Combination**  
+- Combine individual simulation outputs into a single dataset for each of the MABF method as well as the REMA method for subsequent analysis.  
+
+**Step 3.0–3.5: Data Analysis**  
+- Analyze original study results.  
+- Compute evaluation metrics for ROC curves and stacked bar plots.  
+
+**Step 4: Data Visualization**  
+- Visualize original study results using bar plots, histograms, and heatmaps.  
+- Visualize replication study results using ROC curves and stacked bar plots.  
+
+**Step 5.0-5.1: AUC Calculation and Shiny App Development**  
+- Calculate Area-Under-Curve (AUC) for MABF and REMA methods.
+- Develop Shiny dashboards for interactive, point-and-click data visualization.  
+- Generate APA 7th edition–style, publication-ready tables through Shiny interfaces.
 
 ### Workflow Diagram
 
