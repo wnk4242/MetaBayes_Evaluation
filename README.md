@@ -20,7 +20,7 @@ This folder includes materials referenced in the manuscript:
 The repository provides original R code used for simulation, data analysis, and visualization.
 
 - The R code in the `original_code` folder reproduces the full simulation workflow.  
-  Due to computational demands, scripts for **Steps 1.0** and **4.0** require high-performance computing (HPC) resources and cannot be executed on a standard computer.  
+  Due to computational demands, R code for **Steps 1.0-3.5** require high-performance computing (HPC) resources and cannot be executed on a standard computer.  
 - Fully processed simulation datasets are provided for readers to reproduce the main plots in the manuscript, including ROC curves and stacked bar charts.  
   The demonstration scripts for these analyses are located in the `code_for_demonstration` folder.
 
@@ -48,10 +48,5 @@ The repository provides original R code used for simulation, data analysis, and 
 - Calculate Area-Under-Curve (AUC) for MABF and REMA methods.
 - Develop Shiny dashboards for interactive, point-and-click data visualization.  
 - Generate APA 7th edition–style, publication-ready tables through Shiny interfaces.
-
-### Workflow Diagram
-
-An R script workflow diagram is included to illustrate the data generation and analysis process.
-![Workflow Diagram](images/workflow3.png)
 
      
