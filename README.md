@@ -22,7 +22,7 @@ The repository provides original R code used for simulation, data analysis, and 
 - The R code in the `original_code` folder reproduces the full simulation workflow.  
   Due to computational demands, R code for **Steps 1.0-3.5** require high-performance computing (HPC) resources and cannot be executed on a standard computer.  
 - Fully processed simulation datasets are provided for readers to reproduce the main plots in the manuscript, including ROC curves and stacked bar charts.  
-  The demonstration scripts for these analyses are located in the `code_for_demonstration` folder.
+  The demonstration scripts for these analyses are located in the `demo code` folder.
 
 ---
 
