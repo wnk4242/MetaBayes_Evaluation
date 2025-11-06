@@ -13,7 +13,7 @@ This folder includes materials referenced in the manuscript:
 - **Appendix A – Figures:** Contains all figures presented in the paper, as well as the complete set of ROC curve graphs that were not shown in the manuscript.  
 - **Appendix B – Tables:** Contains all summary tables reporting key simulation results and performance comparisons across meta-analytic Bayes factor (MABF) methods.  
 - **Appendix C – Data Generation Process:** Provides a detailed description of the parameter settings used to generate study-level effect sizes and participant-level data in the two-phase simulation design.
-
+- **Appendix D - R functions for _p_-hacking:** Describes the hierachical structure and purposes of the R functions used to simulate the effects of the _p_-hacking mechanism.
 ---
 
 ### R Code
