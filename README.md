@@ -6,6 +6,7 @@ Readers may find it helpful to explore our accompanying [Shiny app](https://quan
 <p align="center">
   <img src="images/anatomy.png" width="1345" style="margin-left: 20px;" />
 </p>
+
 ---
 
 ## Repository Contents
