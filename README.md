@@ -2,7 +2,7 @@
 
 This repository accompanies the manuscript entitled *“Seeing Beyond Replication Success: A Framework for Evaluating Multi-Lab Replication Outcomes Using Meta-Analytic Bayes Factors.”*  
 It contains the R code, processed data, and supplementary materials required to reproduce the analyses and visualizations presented in the paper.
-Readers may find it helpful to explore our accompanying [Shiny app](https://quantpsych.shinyapps.io/BJMSP_AnatomyofReplicationSuccess/), an interactive diagram that visualizes the main findings of this study, while reading the manuscript.
+Readers may find it helpful to explore our companion [Shiny app](https://quantpsych.shinyapps.io/BJMSP_AnatomyofReplicationSuccess/), an interactive diagram that visualizes the main findings of this study, while reading the manuscript.
 <p align="center">
   <img src="images/anatomy_bjmsp.png" width="1345" style="margin-left: 20px;" />
 </p>
