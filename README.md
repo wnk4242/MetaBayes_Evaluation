@@ -1,6 +1,6 @@
-# Seeing Beyond Replication Success: A Framework for Evaluating Multi-Lab Replication Outcomes Using Meta-Analytic Bayes Factors
+# A Framework for Evaluating Replication-Success Metrics
 
-This repository accompanies the manuscript entitled *“Seeing Beyond Replication Success: A Framework for Evaluating Multi-Lab Replication Outcomes Using Meta-Analytic Bayes Factors.”*  
+This repository accompanies the manuscript entitled *“A Framework for Evaluating Replication-Success Metrics”*  
 It contains the R code, processed data, and supplementary materials required to reproduce the analyses and visualizations presented in the paper.
 Readers may find it helpful to explore our companion [Shiny app](https://quantpsych.shinyapps.io/BJMSP_AnatomyofReplicationSuccess/), an interactive diagram that visualizes the main findings of this study, while reading the manuscript.
 <p align="center">
@@ -37,4 +37,4 @@ The repository provides original R code used for simulation, data analysis, and 
 
 **Step 4: Data Visualization**  
 - Visualize original study results using bar plots, histograms, and heatmaps.  
-- Visualize replication study results using ROC curves and stacked bar plots.      
+- Visualize replication study results using ROC-like curves and stacked bar plots.      
