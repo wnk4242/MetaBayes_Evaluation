@@ -24,6 +24,6 @@ Readers may find it helpful to explore our companion [Shiny app](https://quantps
 - Analyze original study results.  
 - Compute classical classification performance metrics (TPR, FPR, etc) and replicaiton-success classification metrics (TSR, FSR, etc)
 
-**Step 4.0: Data Visualization**  
+**Step 4.0-6.0: Data Visualization**  
 - Visualize original study and replication study results using various types of plots.
-
+- Use Shiny apps to illustrate the replication-success classification framework in an interactive interface.
