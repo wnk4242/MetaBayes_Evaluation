@@ -16,12 +16,13 @@ Readers may find it helpful to explore our companion [Shiny app](https://quantps
 - Generate replication study results.  
 - Synthesize replication data using meta-analytic Bayes factor (MABF) and random-effects meta-analysis (REMA) methods.  
 
-**Step 2.0: Data Combination**  
+**Step 2.0-2.1: Data Combination**  
 - Combine individual simulation outputs into a single dataset for each of the MABF method as well as the REMA method for subsequent analysis.  
+- Convert two-sided p-value into one-sided in Step2.1
 
 **Step 3.0–3.5: Data Analysis**  
 - Analyze original study results.  
-- Compute evaluation metrics for ROC curves and stacked bar plots.  
+- Compute classical classification performance metrics (TPR, FPR, etc) and replicaiton-success classification metrics (TSR, FSR, etc)
 
 **Step 4.0: Data Visualization**  
 - Visualize original study results using bar plots, histograms, and heatmaps.  
