@@ -18,12 +18,12 @@ Readers may find it helpful to explore our companion [Shiny app](https://quantps
 
 **Step 2.0-2.1: Data Combination**  
 - Combine individual simulation outputs into a single dataset for each of the MABF method as well as the REMA method for subsequent analysis.  
-- Convert two-sided p-value into one-sided in Step2.1
+- Convert two-sided _p_-values into one-sided ones for meta-analysis in Step 2.1
 
 **Step 3.0–3.5: Data Analysis**  
 - Analyze original study results.  
 - Compute classical classification performance metrics (TPR, FPR, etc) and replicaiton-success classification metrics (TSR, FSR, etc)
 
 **Step 4.0: Data Visualization**  
-- Visualize original study results using bar plots, histograms, and heatmaps.  
-- Visualize replication study results using ROC-like curves and stacked bar plots.      
+- Visualize original study and replication study results using various types of plots.
+
