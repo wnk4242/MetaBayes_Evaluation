@@ -1,6 +1,6 @@
 ## A classification framework for evaluating replication-success metrics
 
-This repository accompanies the manuscript entitled *“A Framework for Evaluating Replication-Success Metrics”*  
+This repository accompanies the [manuscript](https://osf.io/preprints/psyarxiv/a42c6_v2) entitled *“A Framework for Evaluating Replication-Success Metrics”*  
 It contains the R code required to reproduce the analyses and visualizations presented in the paper.
 Readers may find it helpful to explore our companion [Shiny app](https://quantpsych.shinyapps.io/BJMSP_AnatomyofReplicationSuccess/), an interactive diagram that visualizes the main findings of this study, while reading the manuscript.
 <p align="center">
