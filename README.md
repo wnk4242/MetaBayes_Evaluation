@@ -1,4 +1,4 @@
-# A Framework for Evaluating Replication-Success Metrics
+## A classification framework for evaluating replication-success metrics
 
 This repository accompanies the manuscript entitled *“A Framework for Evaluating Replication-Success Metrics”*  
 It contains the R code required to reproduce the analyses and visualizations presented in the paper.
